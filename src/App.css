@@ -1,5 +1,5 @@
 :root{
-  --green-color:#7E30E1;
+  --green-color:#2c6cff;
   --black-color:#1a1a1a;
   --dark-blue:#222222;
   --dark-green:#395c51
@@ -50,13 +50,17 @@
   min-height: 50px;
   grid-column-gap: 12px;
   grid-row-gap: 12px;
-  background-color: rgba(218, 195, 250, 0.138);
+  background-color: rgba(78, 119, 233, 0.097);
   border: 1px solid rgba(211, 188, 255, 0.2);
   border-radius: 8px;
   align-items: center;
   padding: 8px 12px;
   display: flex;
   color: #fff;
+  backdrop-filter: blur(150px);
+}
+.btn-w{
+  width: fit-content !important;
 }
 @media (max-width:600px){
   .registration{
