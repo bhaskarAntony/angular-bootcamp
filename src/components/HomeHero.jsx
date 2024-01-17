@@ -11,7 +11,7 @@ function HomeHero() {
       <div className="blur2 d-none d-sm-none d-md-block"></div> */}
     
         <secion className="main-hero p-md-5 p-3">
-        <button className=' btn p-2 text-black bg-white rounded-5 mb-3 mt-3 btn-w'>ClouOps  Bootcamp</button>
+        <button className=' btn p-2 px-4 text-black bg-white mb-3 mt-3 btn-w'><big><b>ClouOps  Bootcamp </b></big><br /> <small>Think On Earth, Work On Cloud</small></button>
         <h1 className="heading-text  text-white mt-3 text-900 py-2">Secret Blueprint for  High-Paid <span className="text-main">ClouOps career</span></h1>
         <div className="p-large text-white">Live Q&A Session With Experts, <br />Get Easiest Part To Learn complete ClouOps,  Get E-Certificate and Study Meterial</div>
         <div className="date-container mt-5">
