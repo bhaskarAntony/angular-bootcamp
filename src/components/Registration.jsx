@@ -27,7 +27,7 @@ const LoadingModal = () => {
           <div className="modal-dialog ">
             <div className="modal-content bg-black">
               <div className="modal-header">
-                <h5 className="modal-title text-main">ClouOps Developmmnt Bootcamp</h5>
+                <h5 className="modal-title text-main">CloudOps Bootcamp</h5>
                 <button type="button" className="close btn" onClick={onClose}>
                   <span className='fs-1 text-white'>&times;</span>
                 </button>
@@ -35,7 +35,7 @@ const LoadingModal = () => {
               <div className="modal-body d-flex align-items-center justify-content-center flex-column gap-3">
               <img src="https://static-00.iconduck.com/assets.00/success-icon-512x512-qdg1isa0.png" alt="success" />
               <p className='fs-4 text-white mt-4'>
-                <b className='text-main'>Congratulations! </b>You are eligible for free registration to our ClouOps  Bootcamp.
+                <b className='text-main'>Congratulations! </b>You are eligible for free registration to our CloudOps  Bootcamp.
               </p>
              
                </div>
