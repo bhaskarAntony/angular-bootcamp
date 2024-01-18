@@ -205,7 +205,7 @@ function Registration() {
           //   return;
           // }
           try {
-              axios.post('https://dull-trousers-deer.cyclic.app/api/datascience/register', reg)
+              axios.post('https://dull-trousers-deer.cyclic.app/api/cloud/register', reg)
               .then(response => {
                 // Handle the response data here
                 toast.success("Thank you for registering to ClouOps  Bootcamp")
