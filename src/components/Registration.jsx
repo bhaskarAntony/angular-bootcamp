@@ -70,6 +70,8 @@ function Registration() {
         email: "",
         mobile: "",
         coupon: "",
+        college: "",
+        pass:""
       });
       if(reg.coupon===null){
         setIsCoupon(false)
@@ -354,6 +356,19 @@ function Registration() {
                                 <div>
                     { err && mobileErr ? <p className="text-danger text-start"> { mobileErr } </p> : null }
                                  </div>
+                            </div>
+                            <div className="row">
+                              <div className="col-12 col-sm-12 col-md-8">
+                              <div className="form-group mt-2">
+                                <input type="text" className="form-control p-3"  name='college' placeholder='College Name' value={reg.college} onChange={readValue} required/>
+                            </div>
+                              </div>
+                              <div className="col-6 col-sm-6 col-md-4">
+                              <div className="form-group mt-2">
+                                <input type="number" className="form-control p-3"  name='pass' placeholder='Pass Out Year' value={reg.pass} onChange={readValue} required/>
+                            </div>
+                              </div>
+                              
                             </div>
                             <div className="form-group mt-2">
                                 <input type="text" className="form-control p-3" name='coupon' placeholder='Coupon Code (optional)'  value={reg.coupon} onChange={readValue} />
