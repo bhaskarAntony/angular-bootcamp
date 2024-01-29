@@ -11,22 +11,22 @@ const allFaqs = {
     {
         "title": "quest2",
         "quest": "Are there any prerequisites for this program? ",
-        "ans":  "Some programs do have prerequisites, While there are no strict prerequisites, participants should have basic knowledge of cloud computing concepts and familiarity with AWS services."
+        "ans":  "Some programs do have prerequisites, particularly the more technical ones. 1.	Good to have a github profile. 2.	Good to have a Visual studio code editor"
     },
     {
         "title": "quest3",
-        "quest": "What are the requirements to earn a certificate? ",
-        "ans":  "This is a graded program. You must complete a combination of individual assignments, online test, and a final project. Each component carries a certain number of points, and a cumulative score of 60% percent is required to pass and obtain your professional certificate. "
+        "quest": "What are the requirements to earn a certificate?",
+        "ans":  "This is a graded program. You must complete a combination of individual assignments, online test, and a final project. Each component carries a certain number of points, and a cumulative score of 60% percent is required to pass and obtain your professional certificate.	"
     },
     {
         "title": "quest4",
-        "quest": "What type of certificate will I receive?",
-        "ans":  "You can download video transcripts, assignment templates, readings, at the end of the workshop. However, the video lectures are only available for streaming and require an internet connection. "
+        "quest": "Can I download the program videos?",
+        "ans":  "You can download video transcripts, assignment templates, readings, at the end of the workshop. However, the video lectures are only available for streaming and require an internet connection."
     },
     {
         "title": "quest5",
-        "quest": "What type of certificate will I receive? ",
-        "ans":  "The digital certificate will be sent after the program, once grading is complete. "
+        "quest": "What type of certificate will I receive?",
+        "ans":  "The digital certificate will be sent after the program, once grading is complete."
     },
     {
         "title": "quest6",
@@ -35,15 +35,20 @@ const allFaqs = {
     },
     {
       "title": "quest7",
-      "quest": "Do I receive alumni status after completing this program? ",
+      "quest": "Do I receive alumni status after completing this program?",
       "ans":  "No, there is no alumni status granted for this program. In some cases, there are credits that count toward a higher level of certification. We provide alumni status for those who joined for full time program. "
-  }
+  },
+  {
+    "title": "quest8",
+    "quest": "How long will I have access to the learning materials?",
+    "ans":  "You will have access to the learning platform and all program materials (videos excluded) for 3 months following the program end date. Access to the learning platform is restricted to registered participants per the terms of agreement will be forwarded through mail."
+}
 ]
 }
 
 function FAQ() {
   return (
-    <section id='faq' className='p-3 p-lg-5'>
+    <section id='faq' className='bg-dark mt-5 p-3 p-lg-5'>
         <div className="container-fluid mt-5">
           <div className="row">
             <div className="col-md-12">

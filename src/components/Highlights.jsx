@@ -5,7 +5,7 @@ const highlights = [
     {
         image:"https://cdn-icons-png.flaticon.com/128/10789/10789560.png",
         title:"Actionable Knowledge",
-        content:"Acquire valuable, hands-on insights to launch your  career in ClouOps  effectively"
+        content:"Acquire valuable, hands-on insights to launch your  career in Angular  effectively"
     },
     {
         image:"https://cdn-icons-png.flaticon.com/128/7257/7257539.png",
@@ -15,7 +15,7 @@ const highlights = [
     {
         image:"https://cdn-icons-png.flaticon.com/128/9464/9464456.png",
         title:"Industry Demand",
-        content:"Learn from experts about the current job market's robust demand for careers in ClouOps "
+        content:"Learn from experts about the current job market's robust demand for careers in Angular "
     },
     {
         image:"https://cdn-icons-png.flaticon.com/128/11060/11060995.png",
@@ -37,7 +37,7 @@ const highlights = [
 function Highlights() {
   return (
     <section className='highlights text-center mt-5' id='highlight'>
-        <h1 className="heading text-white mb-5">ClouOps   <br /> Bootcamp <span className='text-main'>Highlights</span></h1>
+        <h1 className="heading text-black mb-5">Angular   <br /> Bootcamp <span className='text-main'>Highlights</span></h1>
         <div className="container mt-3">
             <div className="row">
             {
@@ -58,7 +58,7 @@ function Highlights() {
             </div>
         </div>
         <div className="text-center mt-5">
-        <a href="#register" className='text-decoration-none'><button className="main-btn px-5 text-700">Register Now <del className='text-danger'>1000/-</del> <big>Free</big></button></a>
+        <a href="#register" className='text-decoration-none'><button className="main-btn px-5 text-700">Register Now <del className='text-black'>1000/-</del> <big>Free</big></button></a>
         </div>
     </section>
   )

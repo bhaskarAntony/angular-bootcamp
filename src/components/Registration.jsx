@@ -27,7 +27,7 @@ const LoadingModal = () => {
           <div className="modal-dialog ">
             <div className="modal-content bg-black">
               <div className="modal-header">
-                <h5 className="modal-title text-main">CloudOps Bootcamp</h5>
+                <h5 className="modal-title text-main">Angular Bootcamp</h5>
                 <button type="button" className="close btn" onClick={onClose}>
                   <span className='fs-1 text-white'>&times;</span>
                 </button>
@@ -35,7 +35,7 @@ const LoadingModal = () => {
               <div className="modal-body d-flex align-items-center justify-content-center flex-column gap-3">
               <img src="https://static-00.iconduck.com/assets.00/success-icon-512x512-qdg1isa0.png" alt="success" />
               <p className='fs-4 text-white mt-4'>
-                <b className='text-main'>Congratulations! </b>You are eligible for free registration to our CloudOps  Bootcamp.
+                <b className='text-main'>Congratulations! </b>You are eligible for free registration to our Angular  Bootcamp.
               </p>
              
                </div>
@@ -56,7 +56,7 @@ function Registration() {
     const [freeCoupon, setFreeCoupon] = useState(false)
     useEffect(() => {
       // Fetch influencer data from the API endpoint
-      axios.get('https://emerald-sockeye-tux.cyclic.app//api/influencers/list')
+      axios.get('https://stormy-flannel-nightgown-ox.cyclic.app/api/influencers/list')
         .then((response) => {
           setInfluencers(response.data);
           console.log("influencers", response.data);
@@ -207,10 +207,10 @@ function Registration() {
           //   return;
           // }
           try {
-              axios.post('https://dull-trousers-deer.cyclic.app/api/cloud/register', reg)
+              axios.post('https://stormy-flannel-nightgown-ox.cyclic.app/api/angular/register', reg)
               .then(response => {
                 // Handle the response data here
-                toast.success("Thank you for registering to ClouOps  Bootcamp")
+                toast.success("Thank you for registering to Angular  Bootcamp")
                 setShowModal(true)
                 console.log(response);
               })
@@ -306,7 +306,7 @@ function Registration() {
               // else if(reg.coupon==="AMC" || reg.coupon==="ACSE"||reg.coupon==="kavitha"||reg.coupon=="UVCE"|| reg.coupon ==="GCEM"|| reg.coupon ==="DSCE"|| reg.coupon ==="BIET"||reg.coupon ==="BMSIT" || reg.coupon === "BPDS01" ||reg.coupon === "AIT" || reg.coupon === "SP01" || reg.coupon === "JHC" || reg.coupon === "MBCAC"|| reg.coupon === "BASKARANTONY123" || reg.coupon === "JNNC"){
               //   setLoading(false);
               //   setShowModal(true)
-              //   toast.info("thanks for registering for ClouOps webianar and You got free registartion ,");
+              //   toast.info("thanks for registering for Angular webianar and You got free registartion ,");
               //   setReg({
               //     name: "",
               //     email: "",
@@ -330,10 +330,10 @@ function Registration() {
        <div className="registration-form-container text-center rounded-3">
                 <div className="card register-form rounded-3">
                     <div className="card-header text-start">
-                    <h1 className="p-large-xl text-white">Enroll Our <br />ClouOps  Bootcamp</h1>
+                    <h1 className="p-large-xl text-white">Enroll Our <br />Angular  Bootcamp</h1>
             <div className="d-flex align-items-end">
             <h1 className="heading-text text-main mx-2">Free</h1>
-            <h1 className="heading-subtitle text-white"><del className='text-danger'>&#8377;1000</del></h1>
+            <h1 className="heading-subtitle text-white"><del className='text-black'>&#8377;1000</del></h1>
            
             </div>
                     </div>
@@ -386,7 +386,7 @@ function Registration() {
                                {
                                 freeCoupon ? (
                                    <div class="alert alert-success mt-4" role="alert">
-                                     Congratulations! You are eligible for free registration to our ClouOps  Bootcamp. <i class="bi bi-arrow-right"></i>
+                                     Congratulations! You are eligible for free registration to our Angular  Bootcamp. <i class="bi bi-arrow-right"></i>
                                   </div>
                                  
                                 ):(

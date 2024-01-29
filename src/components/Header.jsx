@@ -6,17 +6,17 @@ function Header() {
     <header className='bg-dark'>
       <marquee behavior="scroll" direction="right" scrollamount="10" className="m-0 bg-main">
         <div className="free-container d-flex gap-5 fs-5 m-0 fw-bold  text-white">
-          <span>Free ClouOps  Bootcamp</span>
-          <span>Free ClouOps  Bootcamp</span>
-          <span>Free ClouOps  Bootcamp</span>
-          <span>Free ClouOps  Bootcamp</span>
-          <span>Free ClouOps  Bootcamp</span>
-          <span>Free ClouOps  Bootcamp</span>
-          <span>Free ClouOps  Bootcamp</span>
-          <span>Free ClouOps  Bootcamp</span>
-          <span>Free ClouOps  Bootcamp</span>
-          <span>Free ClouOps  Bootcamp</span>
-          <span>Free ClouOps  Bootcamp</span>
+          <span>Free Angular  Bootcamp</span>
+          <span>Free Angular  Bootcamp</span>
+          <span>Free Angular  Bootcamp</span>
+          <span>Free Angular  Bootcamp</span>
+          <span>Free Angular  Bootcamp</span>
+          <span>Free Angular  Bootcamp</span>
+          <span>Free Angular  Bootcamp</span>
+          <span>Free Angular  Bootcamp</span>
+          <span>Free Angular  Bootcamp</span>
+          <span>Free Angular  Bootcamp</span>
+          <span>Free Angular  Bootcamp</span>
          
         </div>
       </marquee>
@@ -53,7 +53,7 @@ function Header() {
           </li>
           <li className="nav-item dropdown">
             <a className=" mx-2 main-btn px-3 py-2 text-decoration-none" href="#register">
-              Register Now <del className='text-danger'>&#8377;1000</del> Free
+              Register Now <del className='text-black'>&#8377;1000</del> Free
             </a>
           </li>
         </ul>

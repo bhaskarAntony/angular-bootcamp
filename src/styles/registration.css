@@ -1,8 +1,10 @@
 .register-form{
     background-color: black !important;
     width: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: none !important;
 }
 .register-form .card-header{
-    background-color: rgba(0, 44, 220, 0.29) !important;
+    background-color: rgba(0, 0, 0, 0.29) !important;
     border: 1px solid rgba(206, 234, 255, 0.232) !important;
 }

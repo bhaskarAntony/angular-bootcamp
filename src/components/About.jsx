@@ -102,7 +102,7 @@ counter()
         
     </section>
     <div className="text-center mt-5">
-    <a href="#register" className='text-decoration-none'><button className="main-btn px-5 text-700">Register Now <del className='text-danger'>1000/-</del> Free</button></a>
+    <a href="#register" className='text-decoration-none'><button className="main-btn px-5 text-700">Register Now <del className='text-black'>1000/-</del> Free</button></a>
 </div>
   </>
   )

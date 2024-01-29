@@ -1,5 +1,5 @@
 :root{
-  --green-color:#2c6cff;
+  --green-color:#cf0138;
   --black-color:#1a1a1a;
   --dark-blue:#222222;
   --dark-green:#395c51
@@ -50,8 +50,8 @@
   min-height: 50px;
   grid-column-gap: 12px;
   grid-row-gap: 12px;
-  background-color: rgba(78, 119, 233, 0.097);
-  border: 1px solid rgba(211, 188, 255, 0.2);
+  background-color: rgba(6, 9, 19, 0.678);
+  border: 1px solid rgb(0, 0, 0);
   border-radius: 8px;
   align-items: center;
   padding: 8px 12px;

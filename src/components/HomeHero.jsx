@@ -11,12 +11,12 @@ function HomeHero() {
       <div className="blur2 d-none d-sm-none d-md-block"></div> */}
     
         <secion className="main-hero p-md-5 p-3">
-        <button className=' btn p-2 px-4 text-black bg-white mb-3 mt-3 btn-w'><big><b>ClouOps  Bootcamp </b></big><br /> <small>Think On Earth, Work On Cloud</small></button>
-        <h1 className="heading-text  text-white mt-3 text-900 py-2">Secret Blueprint for  High-Paid <span className="text-main">ClouOps career</span></h1>
-        <div className="p-large text-white">Live Q&A Session With Experts, <br />Get Easiest Part To Learn complete ClouOps,  Get E-Certificate and Study Meterial</div>
+        <button className=' btn p-2 px-4 text-white bg-black mb-3 mt-3 btn-w'><big><b>Angular  Bootcamp </b></big></button>
+        <h1 className="heading-text  text-black mt-3 text-900 py-2">Secret Blueprint for  High-Paid <span className="text-main">Angular career</span></h1>
+        <div className="p-large text-black">Live Q&A Session With Experts, <br />Get Easiest Part To Learn complete Angular,  Get E-Certificate and Study Meterial</div>
         <div className="date-container mt-5">
-            <button className="div-block-876"> <i class="bi bi-calendar2-event text-main"></i>23rd - 24th Jan 2024 </button>
-            <button className="div-block-876"> <i class="bi bi-alarm text-main"></i> 7:30PM to 9:30PM</button>
+            <button className="div-block-876 bg-black"> <i class="bi bi-calendar2-event text-main"></i>2nd - 3rd Feb 2024 </button>
+            <button className="div-block-876 bg-black"> <i class="bi bi-alarm text-main"></i> <span >7:30PM to 9:30PM</span></button>
         </div>
         </secion>
         <div className='container mt-5 text-start'>

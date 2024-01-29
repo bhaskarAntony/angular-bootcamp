@@ -7,10 +7,10 @@ function Enroll() {
         <div className="row d-flex justify-content-center">
             <div className="col-12 col-md-8 col-lg-6">
             <div className="enroll-card">
-            <h1 className="heading-subtitle text-white">Enroll Our <br /> ClouOps Bootcamp</h1>
+            <h1 className="heading-subtitle text-white">Enroll Our <br /> Angular Bootcamp</h1>
             <div className="d-flex align-items-end">
             <h1 className="heading-text text-main mx-2">Free</h1>
-            <h1 className="heading-subtitle text-white"><del className='text-danger'>&#8377;1000</del></h1>
+            <h1 className="heading-subtitle text-white"><del className='text-white'>&#8377;1000</del></h1>
            
             </div>
             <div className="enroll-points">
@@ -22,7 +22,7 @@ function Enroll() {
             </div>
         </div>
         <div className="text-center mt-5">
-        <a href="#faq" className='text-decoration-none'><button className="main-btn px-5 text-700">Register Now <del className='text-danger'>1000/-</del> Free</button></a>
+        <a href="#faq" className='text-decoration-none'><button className="main-btn px-5 text-700">Register Now <del className='text-black'>1000/-</del> Free</button></a>
         </div>
     </section>
   )

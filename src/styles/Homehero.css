@@ -20,9 +20,10 @@
    
 }
 .main-hero{
-    background:linear-gradient(45deg, #0013596a, #0209236d), url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcGYtczEwNi1wbS0zNzE5LTAyLmpwZw.jpg) no-repeat center;
+    background:url('../images/bg.svg') no-repeat bottom center;
     background-size: cover;
-    min-height: 80vh;
+    min-height: 100vh;
+    background-color: #fae0e9;
 }
 .blur1{
     width: 200px;
@@ -65,8 +66,9 @@
     border-radius: 20px;
     margin-bottom: 30px;
     border: 1px solid #6867675e;
-    background:linear-gradient(45deg, #1e2220, #494949);
-    color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    color: #121212;
+    min-height: 250px;
 
 }
 .module ul li::marker{
